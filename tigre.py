@@ -35,3 +35,14 @@ class Tigre:
             print("GRR!")
         else:
             print("GRRRRRRRRRRRRR!!!!!!")
+
+    
+    def echar_carrera(self, otro_tigre):
+        """Método para que dos tigres compitan en una carrera. El más rápido ganará."""
+
+        if self.velocidad > otro_tigre.velocidad:
+            print(f"{self.nombre} gana la carrera")
+        elif otro_tigre.velocidad > self.velocidad:
+            print(f"{otro_tigre.nombre} gana la carrera")
+        else:
+            print(f"Empate: {self.nombre} y {otro_tigre.nombre} son igual de rápidos")

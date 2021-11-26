@@ -16,3 +16,8 @@ for _ in range(0, 5):
 # Haremos rugir al tigre con una potencia aleatoria
 potencia = random.randint(0, 10)
 tigre_salvaje.rugir(potencia)
+
+# Método echar_carrera()
+# Necesitaremos crear otro tigre para ambos tigres compitan
+tigre_zoo = Tigre("Toby", 45, False)
+tigre_salvaje.echar_carrera(tigre_zoo)
