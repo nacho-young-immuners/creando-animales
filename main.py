@@ -4,4 +4,4 @@ from tigre import Tigre
 #       Nombre: Shere Khan
 #       Velocidad: 60km/h
 #       Agresivo: sí
-tigre_salvaje = Tigre()
+tigre_salvaje = Tigre("Shere Khan", 60, True)
