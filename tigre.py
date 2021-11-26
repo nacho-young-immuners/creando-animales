@@ -22,3 +22,16 @@ class Tigre:
                 print(f"{self.nombre} te gruñe")
         else:
             print(f"{self.nombre} ronronea")
+
+
+    def rugir(self, potencia):
+        """Método para hacer rugir al tigre indicando la potencia del rugido."""
+
+        if potencia < 3:
+            print("gr...")
+        elif potencia < 5:
+            print("Grr")
+        elif potencia < 8:
+            print("GRR!")
+        else:
+            print("GRRRRRRRRRRRRR!!!!!!")
